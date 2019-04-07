@@ -12,14 +12,11 @@
     <p class="text-primary">Debajo se encuentran dos botones que lo enviaran a los modulos principales de este sistema,<br /> dentro de ellos encontrara los contenidos correspondiente
     de cada uno</p>
     <div class="row">
-        <div class="col-md-4">
-            @Html.ActionLink("Modulo de Mantenimiento", "mantenimiento", "Home", null, new { @class = "btn btn-primary" })
+        <div class="col-md-5">
+            @Html.ActionLink("Modulo de Mantenimiento", "mantenimiento", "Home", new { @class = "btn btn-primary" })
         </div>
-        <div class="col-md-4">
-            @Html.ActionLink("Modulo de Procesos", "procesos", "Home", null, new { @class = "btn btn-primary" })
-        </div>
-        <div class="col-md-4">
-            @Html.ActionLink("Informes", "informes", "Home", null, new { @class = "btn btn-primary" })
+        <div class="col-md-5">
+            @Html.ActionLink("Modulo de Procesos", "procesos", "Home", new { @class = "btn btn-primary" })
         </div>
     </div>
 </div>

@@ -11,14 +11,11 @@ namespace SistemaGestorRecursosHumanos.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-
+    
     public partial class licencias
     {
         public int id_licencia { get; set; }
-        [DisplayFormat(DataFormatString = "{yyyy-MM-dd}")]
         public Nullable<System.DateTime> desde { get; set; }
-        [DisplayFormat(DataFormatString = "{yyyy-MM-dd}")]
         public Nullable<System.DateTime> hasta { get; set; }
         public string motivo { get; set; }
         public string comentarios { get; set; }

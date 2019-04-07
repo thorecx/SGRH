@@ -11,14 +11,12 @@ namespace SistemaGestorRecursosHumanos.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-
+    
     public partial class salidaEmpleado
     {
         public int id_salida { get; set; }
         public string tipoSalida { get; set; }
         public string motivo { get; set; }
-        [DisplayFormat(DataFormatString = "{yyyy-MM-dd}")]
         public Nullable<System.DateTime> fechaSalida { get; set; }
         public int id_empleado { get; set; }
     

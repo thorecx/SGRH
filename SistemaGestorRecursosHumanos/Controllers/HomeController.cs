@@ -23,10 +23,5 @@ namespace SistemaGestorRecursosHumanos.Controllers
         {
             return View();
         }
-
-        public ActionResult informes()
-        {
-            return View();
-        }
     }
 }

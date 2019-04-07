@@ -292,7 +292,6 @@
     <Content Include="Views\permisos\Edit.cshtml" />
     <Content Include="Views\permisos\Index.cshtml" />
     <Content Include="Views\Home\procesos.cshtml" />
-    <Content Include="Views\Home\informes.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

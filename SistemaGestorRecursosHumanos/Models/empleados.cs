@@ -11,8 +11,7 @@ namespace SistemaGestorRecursosHumanos.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-
+    
     public partial class empleados
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -30,7 +29,6 @@ namespace SistemaGestorRecursosHumanos.Models
         public string nombre { get; set; }
         public string apellido { get; set; }
         public string telefono { get; set; }
-        [DisplayFormat(DataFormatString = "{yyyy-MM-dd}")]
         public Nullable<System.DateTime> fechaIngreso { get; set; }
         public Nullable<int> salario { get; set; }
         public string estado { get; set; }

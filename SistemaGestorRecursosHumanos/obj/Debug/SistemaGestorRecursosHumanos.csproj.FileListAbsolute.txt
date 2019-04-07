@@ -91,7 +91,6 @@ C:\Users\Hector Figuereo\source\repos\SistemaGestorRecursosHumanos\obj\Debug\Sis
 C:\Users\Hector Figuereo\source\repos\SistemaGestorRecursosHumanos\obj\Debug\SistemaGestorRecursosHumanos.dll
 C:\Users\Hector Figuereo\source\repos\SistemaGestorRecursosHumanos\obj\Debug\SistemaGestorRecursosHumanos.pdb
 C:\Users\Hector Figuereo\source\repos\SistemaGestorRecursosHumanos\obj\Debug\SistemaGestorRecursosHumanos.csprojAssemblyReference.cache
-<<<<<<< HEAD
 C:\Users\Hector Figuereo\Desktop\SGRH\SistemaGestorRecursosHumanos\bin\SistemaGestorRecursosHumanos.dll.config
 C:\Users\Hector Figuereo\Desktop\SGRH\SistemaGestorRecursosHumanos\bin\SistemaGestorRecursosHumanos.dll
 C:\Users\Hector Figuereo\Desktop\SGRH\SistemaGestorRecursosHumanos\bin\SistemaGestorRecursosHumanos.pdb
@@ -274,5 +273,3 @@ C:\Users\Julio Guerrero\Documents\GitHub\SGRH\SistemaGestorRecursosHumanos\obj\D
 C:\Users\Julio Guerrero\Documents\GitHub\SGRH\SistemaGestorRecursosHumanos\obj\Debug\SistemaGestorRecursosHumanos.csproj.CopyComplete
 C:\Users\Julio Guerrero\Documents\GitHub\SGRH\SistemaGestorRecursosHumanos\obj\Debug\SistemaGestorRecursosHumanos.dll
 C:\Users\Julio Guerrero\Documents\GitHub\SGRH\SistemaGestorRecursosHumanos\obj\Debug\SistemaGestorRecursosHumanos.pdb
-=======
->>>>>>> parent of ec4cf33... Version 2 SGRH

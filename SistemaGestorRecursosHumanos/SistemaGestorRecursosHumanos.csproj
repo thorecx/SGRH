@@ -139,6 +139,7 @@
     <Compile Include="Controllers\empleadosController.cs" />
     <Compile Include="Controllers\entradaEmpleadosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\informeController.cs" />
     <Compile Include="Controllers\licenciasController.cs" />
     <Compile Include="Controllers\nominasController.cs" />
     <Compile Include="Controllers\permisosController.cs" />
@@ -296,6 +297,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\informe\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

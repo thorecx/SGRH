@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0085d7fd932449aa9895cc7341086ccc" Name="Diagram1">
+        <EntityTypeShape EntityType="SGRHModel.cargos" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SGRHModel.departamentos" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SGRHModel.empleados" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SGRHModel.entradaEmpleados" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SGRHModel.licencias" Width="1.5" PointX="0.5" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SGRHModel.nomina" Width="1.5" PointX="2.375" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SGRHModel.permisos" Width="1.5" PointX="5.25" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SGRHModel.salidaEmpleado" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SGRHModel.vacaciones" Width="1.5" PointX="7" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="SGRHModel.fk_emp_car" ManuallyRouted="false" />
+        <AssociationConnector Association="SGRHModel.fk_emp_dep" ManuallyRouted="false" />
+        <AssociationConnector Association="SGRHModel.fk_ent_emp" ManuallyRouted="false" />
+        <AssociationConnector Association="SGRHModel.fk_sal_emp" ManuallyRouted="false" />
+        <AssociationConnector Association="SGRHModel.fk_lic_emp" />
+        <AssociationConnector Association="SGRHModel.fk_per_emp" />
+        <AssociationConnector Association="SGRHModel.fk_vac_emp" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

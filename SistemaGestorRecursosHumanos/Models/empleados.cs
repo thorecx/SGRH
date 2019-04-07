@@ -30,7 +30,8 @@ namespace SistemaGestorRecursosHumanos.Models
         public string nombre { get; set; }
         public string apellido { get; set; }
         public string telefono { get; set; }
-        [DisplayFormat(DataFormatString = "{yyyy-MM-dd}")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}")]
         public Nullable<System.DateTime> fechaIngreso { get; set; }
         public Nullable<int> salario { get; set; }
         public string estado { get; set; }

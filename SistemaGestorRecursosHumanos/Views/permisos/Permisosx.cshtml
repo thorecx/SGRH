@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<SistemaGestorRecursosHumanos.Models.permisos>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Permisosx";
 }
 
-<h2>Index</h2>
+<h2>Permisosx</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -12,7 +12,7 @@
 <form action="Permisos" method="post">
     <div class="form-actions no-color d-flex justify-content-between" style=" border:solid; border-radius:5px; border-width:2px; padding:0.6px">
         <input type="date" name="fecha" value="" class="form-control" placeholder="Buscar por fecha...">
-        <input type="submit" value="Buscar" class="btn btn-outline-primary form-control" />
+        <input type="submit" value="Buscar" class="btn btn-outline-success form-control" />
     </div>
 </form>
 <table class="table">

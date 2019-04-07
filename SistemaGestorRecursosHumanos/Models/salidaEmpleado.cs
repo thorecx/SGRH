@@ -18,7 +18,8 @@ namespace SistemaGestorRecursosHumanos.Models
         public int id_salida { get; set; }
         public string tipoSalida { get; set; }
         public string motivo { get; set; }
-        [DisplayFormat(DataFormatString = "{yyyy-MM-dd}")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}")]
         public Nullable<System.DateTime> fechaSalida { get; set; }
         public int id_empleado { get; set; }
     

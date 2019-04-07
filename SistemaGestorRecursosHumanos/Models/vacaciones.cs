@@ -16,9 +16,11 @@ namespace SistemaGestorRecursosHumanos.Models
     public partial class vacaciones
     {
         public int id_vacaciones { get; set; }
-        [DisplayFormat(DataFormatString = "{yyyy-MM-dd}")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}")]
         public Nullable<System.DateTime> desde { get; set; }
-        [DisplayFormat(DataFormatString = "{yyyy-MM-dd}")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}")]
         public Nullable<System.DateTime> hasta { get; set; }
         public string año { get; set; }
         public string comentario { get; set; }

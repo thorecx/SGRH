@@ -16,9 +16,11 @@ namespace SistemaGestorRecursosHumanos.Models
     public partial class licencias
     {
         public int id_licencia { get; set; }
-        [DisplayFormat(DataFormatString = "{yyyy-MM-dd}")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}")]
         public Nullable<System.DateTime> desde { get; set; }
-        [DisplayFormat(DataFormatString = "{yyyy-MM-dd}")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}")]
         public Nullable<System.DateTime> hasta { get; set; }
         public string motivo { get; set; }
         public string comentarios { get; set; }

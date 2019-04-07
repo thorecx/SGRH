@@ -21,6 +21,28 @@ namespace SistemaGestorRecursosHumanos.Controllers
             return View(permisos.ToList());
         }
 
+        //mostrar Permisos
+        public ActionResult Permisosx()        {            return View(db.permisos.ToListAsync());        }        [HttpPost]        [ValidateAntiForgeryToken]        public ActionResult Permisosx(string fecha)        {
+                IEnumerable<permisos> permisos;
+
+            
+
+                using (var bd = new SGRHEntities())
+                {
+                permisos = bd.permisos;
+
+                    if (!String.IsNullOrEmpty(fecha))
+                    {
+                    DateTime fechax = DateTime.Parse(fecha);
+
+                    permisos = permisos.Where(x => x.desde.Equals(fechax));
+                    }
+
+                    permisos = permisos.ToList();
+                }
+
+                return View(permisos);         }
+
         // GET: permisos/Details/5
         public ActionResult Details(int? id)
         {
